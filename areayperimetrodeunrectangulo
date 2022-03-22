@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+    //compilar area y perimetro de un rectangulo
+    float base,altura,area,perimetro;
+    //pedir datos
+    printf("Ingresa la base");
+    scanf("%f",&base);
+    printf("Ingrese la altura");
+    scanf("%f",&altura);
+    //formula
+    area = base * altura ;
+    perimetro = (base * 2 + altura * 2);
+    //resultado
+    printf("El area es %f\nEl perimetro es %f\n",area,perimetro);
+    
+    return 0;
+}
