@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+    //compilar fahrenheit a celsius
+    float fahrenheit,celsius;
+    //pedir datos
+    printf("Ingresa grados fahrenheit");
+    scanf("%f",&fahrenheit);
+
+    //formula
+    celsius = (fahrenheit - 32)/1.8 ;
+  
+    //resultado
+    printf("los grados fahrenheit son %f\nlos grados celsius son %f\n",fahrenheit,celsius);
+    
+    return 0;
+}
