@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include <math.h>
+int main (){
+    //compilar seno coseno tangente
+    float angulo,radianes,seno,coseno,tangente;
+    //pedir datos 
+    printf("Ingresa el valor del angulo ");
+    scanf("%f",&angulo);
+    
+    //formula
+    radianes = (angulo * M_PI)/180;
+    seno = sin(radianes);
+    coseno = cos(radianes);
+    tangente = tan(radianes) ;
+    
+    //resultado
+    printf("radianes %f\nseno %f\ncoseno %f\ntangente %f\n",radianes,seno,coseno,tangente);
+    
+    return 0;
+}
