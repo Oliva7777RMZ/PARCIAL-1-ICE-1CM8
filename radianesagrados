@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+    //compilar radianes a grados
+    float radianes,grados;
+    //pedir datos
+    printf("Ingresa los radianes");
+    scanf("%f",&radianes);
+
+    //formula
+    grados = (radianes * 180)/M_PI ;
+  
+    //resultado
+    printf("los radianes son %f\nlos grados son %f\n",radianes,grados);
+    
+    return 0;
+}
