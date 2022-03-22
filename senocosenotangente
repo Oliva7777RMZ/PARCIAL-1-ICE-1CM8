@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main (){
+    //compilar seno coseno tangente
+    float ca,co,h,seno,coseno,tangente;
+    //pedir datos 
+    printf("Ingresa el valor de la hipotenusa");
+    scanf("%f",&h);
+    printf("Ingresa el valor del cateto adyacente");
+    scanf("%f",&ca);
+    printf("Ingresa el valor del cateto opuesto");
+    scanf("%f",&co);
+    //formula
+    seno = co / h ;
+    coseno = ca / h;
+    tangente = co / ca ;
+    //resultado
+    printf("seno %f\ncoseno %f\ntangente %f\n",seno,coseno,tangente);
+    
+    return 0;
+}
